@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "D:\\envs\\cv\\Scripts\\python.exe",
+  "python.terminal.activateEnvironment": true,
+  "files.exclude": {
+    "**/__pycache__": true
+  }
+}

@@ -1,0 +1,43 @@
+# ---- 数据集:只保留占位文件,数据本体放 D:\datasets ----
+data/*
+!data/.gitkeep
+
+# ---- 模型权重(动辄几百 MB,GitHub 拒收) ----
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+weights/
+runs/
+
+# ---- 视频:题目要求走邮箱,不进仓库 ----
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.conda/
+
+# ---- 工具与缓存 ----
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+*.log
+*.tmp
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 编辑器 ----
+.idea/
+*.swp
